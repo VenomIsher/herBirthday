@@ -14,7 +14,7 @@ let button = document.getElementById("cadeau");
 let canOpen = false;
 
 let lettre = document.getElementById("lettre");
-let lettreTxt = "I love you Anna <3  gtrhzjhtrhjub r jhnbtujnhtbuhjytriztjygjkjgfdhyktuylkjthytuotyyutyertuytl kutrhetytuyyjt rtyutiukyjthytuyk yjthetyuky jtrhytuy";
+let lettreTxt = "Happy birthday! I know you didn't want me to give you anything but it's your birthday after all ! Soo here is a present I made for you. The way we met was a lil original lol but I dont regret anything. The month we spent together was truly beautiful. I hope you enjoyed it as much as I did. Every day I was looking forward to getting a text from you (and I still do). I love the way you get excited abt little stuff. I also think you're a strong girl(or woman idk sry) bc you had the strength to end things when you didnt feel happy and I respect that. Thank you so much for everything we shared together, I really loved being your Gambit. I love you Anna <3";
 let pos = 0;
 
 cat.addEventListener("click", function () {
