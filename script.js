@@ -94,8 +94,3 @@ button.addEventListener("click", function () {
         }, 100);
     }
 });
-
-
-
-
-
