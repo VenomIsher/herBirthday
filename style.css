@@ -23,6 +23,7 @@ body {
 .objet img:hover {
     transform: scale(1.1);
 }
+
 #galerie {
     display: flex;
     justify-content: center;
@@ -65,6 +66,31 @@ body {
 }
 
 @media (max-width: 600px) {
+
+    .objet img {
+        margin: 20px;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 15px;
+        transition: transform 0.3s;
+    }
+
+    .objet img:hover {
+        transform: scale(1.1);
+    }
+
+    #galerie {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: 7px solid;
+        border-radius: 15px;
+        padding: 5px;
+        background-color: #222222;
+        border-color: #0B8F4D;
+    }
+
 
     #message {
         width: 90%;
