@@ -52,8 +52,9 @@ body {
 }
 
 #cadeau {
-    border-color: goldenrod;
-    background-color: darkgoldenrod;
+    background-color: #0B8F4D;
+    border-color: yellow;
+    color: white;
     margin-top: 10px;
     font-size: 20px;
     border-radius: 15px;
