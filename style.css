@@ -64,57 +64,38 @@ body {
     font-size: 40px;
     text-align: center;
 }
+/* Version téléphone */
+@media screen and (max-width: 768px) {
 
-@media (max-width: 600px) {
-
-    .objet img {
-        margin: 20px;
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 15px;
-        transition: transform 0.3s;
-    }
-
-    .objet img:hover {
-        transform: scale(1.1);
-    }
-
-    #galerie {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        border: 7px solid;
-        border-radius: 15px;
-        padding: 5px;
-        background-color: #222222;
-        border-color: #0B8F4D;
-    }
-
-
-    #message {
-        width: 90%;
-        max-width: none;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        font-size: 18px;
+    h1 {
+        font-size: 2rem;
     }
 
     .objet img {
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         margin: 10px;
     }
 
-    #cadeau {
-        font-size: 16px;
+    #galerie {
         padding: 10px;
+    }
+
+    #message {
+        width: 95%;
+        margin: 20px auto;
+        font-size: 18px;
+    }
+
+    #cadeau {
+        width: 90%;
+        max-width: 300px;
+        padding: 10px;
+        font-size: 18px;
     }
 
     #lettre {
         font-size: 24px;
-        width: 90%;
-        margin: 20px auto;
+        padding: 10px;
     }
 }
