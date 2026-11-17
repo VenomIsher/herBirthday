@@ -20,7 +20,7 @@ let pos = 0;
 cat.addEventListener("click", function () {
 
     messageTexte.textContent =
-        "Every time you talked about him, I could tell how much you loved him";
+        "Every time you talked about him, I could tell how much you loved him. From where he is, he must be so proud of you";
 
     if (!catclicked)
     {
