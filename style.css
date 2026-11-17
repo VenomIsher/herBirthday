@@ -26,6 +26,7 @@ body {
 #galerie {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     border: 7px solid;
     border-radius: 15px;
     padding: 5px;
@@ -36,7 +37,8 @@ body {
 #message {
     text-align: center;
     font-size: 24px;
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
     margin-left: 300px;
     margin-top: -20px;
     border: 2px solid;
