@@ -1,0 +1,62 @@
+h1 {
+    color: #D633FF;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: #1A1A1A;
+}
+
+.objet img {
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.objet img:hover {
+    transform: scale(1.1);
+}
+#galerie {
+    display: flex;
+    justify-content: center;
+    border: 7px solid;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #222222;
+    border-color: #0B8F4D;
+}
+
+#message {
+    text-align: center;
+    font-size: 24px;
+    width: 600px;
+    margin-left: 300px;
+    margin-top: -20px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #6A0DAD;
+    border-color: #D633FF;
+    color: white;
+}
+
+#cadeau {
+    border-color: goldenrod;
+    background-color: darkgoldenrod;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+#lettre{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
