@@ -63,3 +63,32 @@ body {
     font-size: 40px;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+
+    #message {
+        width: 90%;
+        max-width: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .objet img {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    #cadeau {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #lettre {
+        font-size: 24px;
+        width: 90%;
+        margin: 20px auto;
+    }
+}
