@@ -29,7 +29,8 @@ cat.addEventListener("click", function () {
     }
 
     if (count === 4) {
-        button.textContent = "You can now open your present";
+        button.textContent = "🎁";
+        button.style.fontSize = "50px";
         canOpen = true;
     }
 
@@ -46,7 +47,8 @@ jeff.addEventListener("click", function () {
     }
 
     if (count === 4) {
-        button.textContent = "You can now open your present";
+        button.textContent = "🎁";
+        button.style.fontSize = "50px";
         canOpen = true;
     }
 });
@@ -62,7 +64,8 @@ miata.addEventListener("click", function () {
     }
 
     if (count === 4) {
-        button.textContent = "You can now open your present";
+        button.textContent = "🎁";
+        button.style.fontSize = "50px";
         canOpen = true;
     }
 });
@@ -78,7 +81,8 @@ couple.addEventListener("click", function () {
     }
 
     if (count === 4) {
-        button.textContent = "You can now open your present";
+        button.textContent = "🎁";
+        button.style.fontSize = "50px";
         canOpen = true;
     }
 });
@@ -91,6 +95,6 @@ button.addEventListener("click", function () {
 
             pos++;
 
-        }, 100);
+        }, 75);
     }
 });
