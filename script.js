@@ -90,9 +90,23 @@ couple.addEventListener("click", function () {
 button.addEventListener("click", function () {
 
     if (canOpen) {
+
+        for (let i = 0; i < 100; i++) {
+            let heart = document.createElement("div");
+            heart.textContent = "❤️";
+            heart.style.left = Math.random() * window.innerWidth + "px";
+            heart.style.bottom = Math.random() * (window.innerHeight - 500) + "px";
+            heart.style.fontSize = Math.random() * 20 + 10 + "px";
+            document.body.appendChild(heart);
+            heart.classList.add("heart");
+            heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+            let distance = Math.random() * 500 + 300;
+            heart.style.setProperty("--distance", `-${distance}px`);
+        }
+        
+
         setInterval(function () {
             messageTexte.textContent = lettreTxt.slice(0, pos);
-
             pos++;
 
         }, 75);
