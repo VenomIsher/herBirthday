@@ -11,6 +11,24 @@ body {
     background-color: #1A1A1A;
 }
 
+.heart {
+    position: fixed;
+    animation: float 3s;
+    opacity: 0;
+}
+
+@keyframes float {
+    from {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(var(--distance));
+        opacity: 0;
+    }
+}
+
 .objet img {
     margin: 20px;
     width: 250px;
@@ -65,6 +83,7 @@ body {
     font-size: 40px;
     text-align: center;
 }
+
 /* Version téléphone */
 @media screen and (max-width: 768px) {
 
